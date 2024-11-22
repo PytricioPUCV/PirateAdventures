@@ -213,10 +213,21 @@ public class Pirate implements Destruible, Dibujable {
         vidas += lives;
     }
 
-    public int getPuntos(){
+    /**
+     * Obtiene la cantidad de puntos acumulados por el pirata.
+     *
+     * @return La cantidad de puntos acumulados.
+     */
+    public int getPuntos() {
         return puntos;
     }
-    public void setPuntos(int puntos){
+
+    /**
+     * Establece la cantidad de puntos acumulados por el pirata.
+     *
+     * @param puntos La cantidad de puntos a establecer.
+     */
+    public void setPuntos(int puntos) {
         this.puntos = puntos;
     }
 }
